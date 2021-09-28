@@ -207,10 +207,6 @@ video.set(cv2.CAP_PROP_FRAME_HEIGHT,240)		#높이를 240p로 설정
 
 time.sleep(1)
 
-##fourcc = cv2.VideoWriter_fourcc(*'XVID')
-##out = cv2.VideoWriter('Original15.avi',fourcc,10,(320,240))
-##out2 = cv2.VideoWriter('Direction15.avi',fourcc,10,(320,240))
-
 #루프마다 업데이트할 변수
 speed = 8
 lastTime = 0
@@ -271,9 +267,6 @@ while True:
     lastError = error
     lastTime = time.time()
         
-##    out.write(frame)
-##    out2.write(heading_image)
-
     key = cv2.waitKey(1)
     if key == 27:
         break
