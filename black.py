@@ -44,7 +44,6 @@ throttle.stop()
 
 
 def detect_edges(frame):
-    # filter for blue lane lines
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     #cv2.imshow("HSV",hsv)
     lower_black = np.array([0, 0, 0], dtype = "uint8")		#검정색의 하한값
@@ -270,16 +269,11 @@ while True:
     lastError = error
     lastTime = time.time()
         
-##    out.write(frame)
-##    out2.write(heading_image)
-
     key = cv2.waitKey(1)
     if key == 27:
         break
     
 video.release()
-##out.release()
-##out2.release()
 cv2.destroyAllWindows()
 GPIO.output(in1,GPIO.LOW)
 GPIO.output(in2,GPIO.LOW)
