@@ -12,7 +12,7 @@ throttlePin = 2 # Physical pin 3
 in3 = 3 # physical Pin 5
 in4 = 4 # physical Pin 7
 
-#Steering 모터 핀 - (전륜 2개)
+#Steering 모터 핀 - 조향제어 (전륜 2개)
 steeringPin = 22 # Physical Pin 15
 in1 = 17 # Physical Pin 11
 in2 = 27 # Physical Pin 13
