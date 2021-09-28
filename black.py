@@ -7,12 +7,12 @@ import RPi.GPIO as GPIO
 
 GPIO.setwarnings(False)
 
-#throttle 모터 핀
-throttlePin = 25 # Physical pin 22
-in3 = 23 # physical Pin 16
-in4 = 24 # physical Pin 18
+#throttle 모터 핀 - 속도제어
+throttlePin = 2 # Physical pin 3
+in3 = 3 # physical Pin 5
+in4 = 4 # physical Pin 7
 
-#Steering 모터 핀
+#Steering 모터 핀 - 
 steeringPin = 22 # Physical Pin 15
 in1 = 17 # Physical Pin 11
 in2 = 27 # Physical Pin 13
