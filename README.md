@@ -8,3 +8,7 @@ Use Raspberry Pi opencv to realize self-driving using lane recognition
 바퀴 총 4개 활용
 전륜 - 조향장치
 후륜 - 속도제어
+
+raspberry pi 4 + web cam + L298N + power bank + hardware + dc motorx4 + 12v battery
+
+(power bank = 보조배터리 / hardware = 차체)
